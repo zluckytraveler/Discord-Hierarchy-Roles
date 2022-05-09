@@ -1,0 +1,7 @@
+# Instructions to set up your bot can be found here:
+# https://docs.google.com/document/d/1BxjYt-RaZjAW8NIX0LDIUi8m6ngGAxeBFPKJEx90mjg
+token: "YOUR BOT TOKEN"
+roles:
+  - "ROLE ID" #1
+  - "ROLE ID" #2
+  - "ROLE ID" #3
