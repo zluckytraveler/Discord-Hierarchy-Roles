@@ -6,9 +6,9 @@ A discord bot which allows users to have only the highest role you defined in a 
 ## **STEP 1**
 
 Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
-
+<br />
+<br />
 ## **STEP 2**
-
 Learn how to creat a custom bot and find a role id. If you already know how to do this please continue to STEP 3.
 
 ### **DISCORD BOT** 
@@ -22,22 +22,23 @@ Learn how to creat a custom bot and find a role id. If you already know how to d
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
 ### **ROLE ID**
-1. Login to your Discord Account
-2. Select the gear icon to open your user settings
-3. Select the Advance tab on side bar
-4. Enable developer mode
-5. Go to your server and select Server Settings
-6. Select the Roles setting
-7. Select the three vertical dots next tot he role name
-8. Now copy the Role ID
+1. Login to your Discord Account.
+2. Select the gear icon to open your user settings.
+3. Select the Advance tab on side bar.
+4. Enable developer mode.
+5. Go to your server and select Server Settings.
+6. Select the Roles setting.
+7. Select the three vertical dots next tot he role name.
+8. Now copy the Role ID.  
+<br />
 
 ## **STEP 3**
-
 Add your Discord Bot Token and Role ID's to `config.yml`, and save the file.
 
 You can add as many Role ID's you want to the file by creating a new entry, it has no limit. The first Role ID is going to be highest role that you define, with every role below being in a lower position in the hierarchy.
-
-
+<br />
+<br />
+<br />
 # **Install**
 
 ## **DOCKER CLI**
@@ -45,28 +46,26 @@ You can add as many Role ID's you want to the file by creating a new entry, it h
 Simply run the command.
 
 ```docker run -d --restart=unless-stopped -v /PATH TO CONFIG/:/app/config.yml zluckytraveler/discord-hierarchy-roles```
-
-
+<br />
+<br />
 ## **DOCKER BUILD**
 
 ### STEP 1
-
 Change the directory to where the files are stored.
 
 ```cd <PATH TO DIRECTORY>```
 
 ### STEP 2
-
 Build the image. The image name must be all lowercase without any spacing
 
 ```docker build -t <YOUR IMAGE NAME> .```
 
 ### STEP 3
-
 Start the container by using the Docker run command.
 
 ```docker run -d --restart=unless-stopped <YOUR IMAGE NAME>```
-
+<br />
+<br />
 ## **LOCAL**
 
 ### STEP 1
