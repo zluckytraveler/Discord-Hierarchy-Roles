@@ -59,8 +59,29 @@ Build the image. The image name must be all lowercase without any spacing
 
 ```docker build -t <YOUR IMAGE NAME> .```
 
-STEP #3
+STEP 3
 
 Start the container by using the Docker run command.
 
 ```docker run -d --restart=unless-stopped <YOUR IMAGE NAME>```
+
+**LOCAL**
+
+STEP 1
+
+Change the directory to where the files are stored.
+
+```cd <PATH TO DIRECTORY>```
+
+STEP 2
+
+Install the requirements file. Depending on your pip you may need to use `pip`, `pipx`, or `pip3`.
+
+```pip install -r requirements.txt```
+
+
+STEP 3
+
+Run the Bot. Depending on your python you may need to use `python`, `python2`, or `python3`.
+
+```python app.py```
