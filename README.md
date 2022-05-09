@@ -1,17 +1,17 @@
-# Discord Hierarchy Role Bot
+# DISCORD HIERARCHY ROLE BOT
 A discord bot which allows users to have only the highest role in a defined list.
 
 The bot will not modify any user's roles that you do not define in your `config.yml` file, keeping them safe from removal.
 
 # SETUP
 
-## STEP 1
+## <ins>STEP 1</ins>
 
 Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
 <br />
 <br />
-## STEP 2
-Learn how to create a Discord Bot and find a Role ID.<br />
+## <ins>STEP 2</ins>
+Learn how to create a <ins>Discord Bot</ins> and find a <ins>Role ID</ins>.<br />
 If you already know how to do this continue to STEP 3.
 
 ### DISCORD BOT
@@ -35,14 +35,14 @@ If you already know how to do this continue to STEP 3.
 8. Now copy the Role ID.  
 <br />
 
-## STEP 3
+## <ins>STEP 3</ins>
 Add your Discord Bot Token and Role ID's to `config.yml`, and save the file.
 
 You can add as many Role ID's you want to the file by creating a new entry, it has no limit. The first Role ID is going to be highest role that you define, with every role below being in a lower position in the hierarchy.
 <br />
 <br />
 <br />
-# Install
+# INSTALL
 
 ## DOCKER CLI
 
@@ -53,17 +53,17 @@ Simply run the command.
 <br />
 ## DOCKER BUILD
 
-### STEP 1
+### <ins>STEP 1</ins>
 Change the directory to where the files are stored.
 
 ```cd <PATH TO DIRECTORY>```
 
-### STEP 2
+### <ins>STEP 2</ins>
 Build the image. The image name must be all lowercase without any spacing
 
 ```docker build -t <YOUR IMAGE NAME> .```
 
-### STEP 3
+### <ins>STEP 3</ins>
 Start the container by using the Docker run command.
 
 ```docker run -d --restart=unless-stopped <YOUR IMAGE NAME>```
@@ -71,13 +71,13 @@ Start the container by using the Docker run command.
 <br />
 ## LOCAL
 
-### STEP 1
+### <ins>STEP 1</ins>
 
 Change the directory to where the files are stored.
 
 ```cd <PATH TO DIRECTORY>```
 
-### STEP 2
+### <ins>STEP 2</ins>
 
 Install the requirements file. <br />
 Depending on your pip you may need to use `pip`, `pipx`, or `pip3`.
@@ -85,7 +85,7 @@ Depending on your pip you may need to use `pip`, `pipx`, or `pip3`.
 ```pip install -r requirements.txt```
 
 
-### STEP 3
+### <ins>STEP 3</ins>
 
 Run the Bot. <br />
 Depending on your python you may need to use `python`, `python2`, or `python3`.
