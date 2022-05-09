@@ -1,6 +1,10 @@
 # Discord Hierarchy Role Bot
 A discord bot which allows users to have only the highest role you defined in a list.
 
+# SETUP
+
+Doownload this repository [DOWNLOAD](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
+
 # Install
 **DOCKER CLI**
 
