@@ -38,7 +38,9 @@ You can add as many Role ID's you want to the file by creating a new entry, it h
 
 
 # **Install**
-**DOCKER CLI**
+@settings {
+  font-size: 100;
+**DOCKER CLI**}
 
 Simply run the command.
 
