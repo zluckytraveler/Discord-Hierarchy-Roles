@@ -8,6 +8,7 @@ A discord bot which allows users to have only the highest role you defined in a 
 Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
 
 **STEP 2**
+
 Learn how to creat a custom bot and find a role id. If you already know how to do this please continue to STEP 3.
 
 **DISCORD BOT** 
