@@ -1,16 +1,16 @@
-# Discord Hierarchy Role Bot
+# **Discord Hierarchy Role Bot**
 A discord bot which allows users to have only the highest role you defined in a list.
 
-# SETUP
+# **SETUP**
 
-STEP 1
+**STEP 1**
 
 Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
 
-STEP 2
+**STEP 2**
 Learn how to creat a custom bot and find a role id. If you already know how to do this please continue to STEP 3.
 
-DISCORD BOT 
+**DISCORD BOT** 
 1. Go to [Discord Developer](https://discord.com/developers)
 2. Create a Application.
 3. Create a Bot.
@@ -20,7 +20,7 @@ DISCORD BOT
 7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-ROLE ID
+**ROLE ID**
 1. Select the gear icon to open your user settings
 2. Select the Advance tab on side bar
 3. Enable developer mode
@@ -29,13 +29,13 @@ ROLE ID
 7. Select the three vertical dots next tot he role name
 9. Now copy the Role ID
 
-STEP 3
+**STEP 3**
 
 Add your Discord Bot Token and Role ID's to `config.yml`, and save the file. 
 You can add as many Role ID's you want to the file, it has no limit.
 
 
-# Install
+# **Install**
 **DOCKER CLI**
 
 Simply run the command.
