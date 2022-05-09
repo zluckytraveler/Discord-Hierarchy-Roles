@@ -11,7 +11,7 @@ Download this repository [HERE](https://github.com/zluckytraveler/discord-hierar
 <br />
 <br />
 ## STEP 2
-Learn how to create a discord bot and find a role id.<br />
+Learn how to create a Discord Bot and find a Role ID.<br />
 If you already know how to do this continue to STEP 3.
 
 ### DISCORD BOT
@@ -24,7 +24,7 @@ If you already know how to do this continue to STEP 3.
 7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-### ROLE ID
+### DISCORD ROLE ID
 1. Login to your Discord Account.
 2. Select the gear icon to open your user settings.
 3. Select the Advance tab on side bar.
