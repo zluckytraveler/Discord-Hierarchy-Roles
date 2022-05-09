@@ -80,15 +80,13 @@ Change the directory to where the files are stored.
 
 ### <ins>STEP 2</ins>
 
-Install the requirements file. <br />
-Depending on your pip you may need to use `pip`, `pipx`, or `pip3`.
+Install the requirements. <br />
 
-```pip install -r requirements.txt```
+```pip3 install -r requirements.txt```
 
 
 ### <ins>STEP 3</ins>
 
 Run the Bot. <br />
-Depending on your python you may need to use `python`, `python2`, or `python3`.
 
-```python app.py```
+```python3 app.py```
