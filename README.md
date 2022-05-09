@@ -3,15 +3,15 @@ A discord bot which allows users to have only the highest role you defined in a 
 
 # **SETUP**
 
-**STEP 1**
+## **STEP 1**
 
 Download this repository [HERE](https://github.com/zluckytraveler/discord-hierarchy-roles/archive/refs/heads/main.zip) 
 
-**STEP 2**
+## **STEP 2**
 
 Learn how to creat a custom bot and find a role id. If you already know how to do this please continue to STEP 3.
 
-**DISCORD BOT** 
+### **DISCORD BOT** 
 1. Go to [Discord Developer](https://discord.com/developers)
 2. Create a Application.
 3. Create a Bot.
@@ -21,16 +21,17 @@ Learn how to creat a custom bot and find a role id. If you already know how to d
 7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
 8. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-**ROLE ID**
-1. Select the gear icon to open your user settings
-2. Select the Advance tab on side bar
-3. Enable developer mode
+### **ROLE ID**
+1. Login to your Discord Account
+2. Select the gear icon to open your user settings
+3. Select the Advance tab on side bar
+4. Enable developer mode
 5. Go to your server and select Server Settings
 6. Select the Roles setting
 7. Select the three vertical dots next tot he role name
-9. Now copy the Role ID
+8. Now copy the Role ID
 
-**STEP 3**
+## **STEP 3**
 
 Add your Discord Bot Token and Role ID's to `config.yml`, and save the file.
 
@@ -38,51 +39,50 @@ You can add as many Role ID's you want to the file by creating a new entry, it h
 
 
 # **Install**
-@settings {
-  font-size: 100;
-**DOCKER CLI**}
+
+## **DOCKER CLI**
 
 Simply run the command.
 
 ```docker run -d --restart=unless-stopped -v /PATH TO CONFIG/:/app/config.yml zluckytraveler/discord-hierarchy-roles```
 
 
-**DOCKER BUILD**
+## **DOCKER BUILD**
 
-STEP 1
+### STEP 1
 
 Change the directory to where the files are stored.
 
 ```cd <PATH TO DIRECTORY>```
 
-STEP 2
+### STEP 2
 
 Build the image. The image name must be all lowercase without any spacing
 
 ```docker build -t <YOUR IMAGE NAME> .```
 
-STEP 3
+### STEP 3
 
 Start the container by using the Docker run command.
 
 ```docker run -d --restart=unless-stopped <YOUR IMAGE NAME>```
 
-**LOCAL**
+## **LOCAL**
 
-STEP 1
+### STEP 1
 
 Change the directory to where the files are stored.
 
 ```cd <PATH TO DIRECTORY>```
 
-STEP 2
+### STEP 2
 
 Install the requirements file. Depending on your pip you may need to use `pip`, `pipx`, or `pip3`.
 
 ```pip install -r requirements.txt```
 
 
-STEP 3
+### STEP 3
 
 Run the Bot. Depending on your python you may need to use `python`, `python2`, or `python3`.
 
