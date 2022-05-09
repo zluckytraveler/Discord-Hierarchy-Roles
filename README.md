@@ -12,28 +12,26 @@ Download this repository [HERE](https://github.com/zluckytraveler/discord-hierar
 <br />
 <br />
 ## <ins>STEP 2</ins>
-Learn how to create a <ins>Discord Bot</ins> and find a <ins>Role ID</ins>.<br />
+Learn how to create a <ins>Discord Bot</ins> and find a <ins>Discord ID</ins>.<br />
 If you already know how to do this continue to STEP 3.
 
 ### DISCORD BOT
 1. Go to [Discord Developer](https://discord.com/developers)
 2. Create a Application.
 3. Create a Bot.
-4. Enable intents for the folowing settings: **PRESENCE INTENT, SERVER MEMBERS INTENT, MESSAGE CONTENT INTENT**
-5. Create a token for the first time by selecting "Reset Token". Copy the token and save it, you will need it later on.
-6. Select **URL Generator** located under **OAuth2**, then enable **bot** under Scopes, followed by **Administator** for Permissions.
-7. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
-8. Follow the Discord popup steps for inviting the bot to your Discord server.
+4. Enable intents for `PRESENCE INTENT`, `SERVER MEMBERS INTENT`, `MESSAGE CONTENT INTENT`
+6. Create a token by selecting `Reset Token`, then copy and save the token, you will need it later.
+7. Under `OAuth2` select `URL Generator`, then enable `bot` & `Administator` under `Scopes` & `Permissions`.
+8. Copy the generated url at he bottom of the page, and paste it into your browsers address bar.
+9. Follow the Discord popup steps for inviting the bot to your Discord server.
 
-### DISCORD ROLE ID
+### DISCORD ID
 1. Login to your Discord Account.
 2. Select the gear icon to open your user settings.
-3. Select the Advance tab on side bar.
+3. Select the Advance tab on the side bar.
 4. Enable developer mode.
-5. Go to your server and select Server Settings.
-6. Select the Roles setting.
-7. Select the three vertical dots next tot he role name.
-8. Now copy the Role ID.  
+5. Right click on your Role.
+8. Now copy the ID. 
 <br />
 
 ## <ins>STEP 3</ins>
