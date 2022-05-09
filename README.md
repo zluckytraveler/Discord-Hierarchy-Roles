@@ -4,7 +4,7 @@ A discord bot which allows users to have only the highest role you defined in a 
 # Install
 **DOCKER CLI**
 
-Simply run this command in the terminal of your choice.
+Simply run the command.
 
 ```docker run -d --restart=unless-stopped -v /PATH TO CONFIG/:/app/config.yml zippytron/zltfiverr```
 
