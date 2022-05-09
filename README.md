@@ -34,7 +34,7 @@ Learn how to creat a custom bot and find a role id. If you already know how to d
 
 Add your Discord Bot Token and Role ID's to `config.yml`, and save the file.
 
-You can add as many Role ID's you want tot he file by creating a new line, it has no limit. The first Role ID is going to be highest role that you define, with every role below being in a lower position in the hierarchy.
+You can add as many Role ID's you want to the file by creating a new entry, it has no limit. The first Role ID is going to be highest role that you define, with every role below being in a lower position in the hierarchy.
 
 
 # **Install**
