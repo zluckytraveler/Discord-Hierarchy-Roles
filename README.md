@@ -1,5 +1,5 @@
 # **Discord Hierarchy Role Bot**
-A discord bot which allows users to have only the highest role you defined in a list.
+A discord bot which allows users to have only the highest role in a defined list.
 
 The bot will not modify any user's roles that you do not define in your `config.yml` file, keeping them safe from removal.
 
