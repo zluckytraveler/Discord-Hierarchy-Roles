@@ -2,7 +2,8 @@
 A discord bot which allows users to have only the highest role in a defined list.
 
 The bot will not modify any user's roles that you do not define in your `config.yml` file, keeping them safe from removal.
-
+<br />
+<br />
 # SETUP
 
 ## <ins>STEP 1</ins>
