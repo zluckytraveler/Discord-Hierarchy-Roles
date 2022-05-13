@@ -48,7 +48,7 @@ You can add as many Role ID's you want to the file by creating a new entry, it h
 
 Simply run the command.
 
-```docker run -d --restart=unless-stopped -v /PATH TO CONFIG/:/app/config.yml zluckytraveler/discord-hierarchy-roles```
+```docker run --name Hierarchy-Role-Bot -d --restart=unless-stopped -v /PATH TO CONFIG/:/app/config.yml zluckytraveler/discord-hierarchy-roles```
 <br />
 <br />
 ## DOCKER BUILD
